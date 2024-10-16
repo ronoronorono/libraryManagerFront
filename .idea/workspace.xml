@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fe5e58d-dc85-457f-97ca-292d03627d3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraryManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/models/customUserProfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/permissions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/permissions/customUserProfilePermission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/serializers/customUserProfileSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/customUserProfileSerializer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/customUserProfileViews_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/customUserProfile_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/local_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/views/customUserProfileView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/tests/customUserProfileAPI_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryManager/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nOsfgBrHseuuumk9fpnM24aBMW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django tests.Test: library.tests.TestAPI.executor": "Run",
+    "Django tests.Test: library.tests.TestAPI.test_the_test.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_invalid_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_user_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_contains_expected_fields.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_invalid_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_create_user_as_staff.executor": "Debug",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_normal_user.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_staff.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_own_profile_as_user.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_user_as_staff.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_update_own_profile_as_user.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_staff_group_assigment.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_group_assigment.executor": "Run",
+    "Django tests.Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_permissions_assignment.executor": "Run",
+    "Django tests.Test: library.tests.executor": "Run",
+    "Django tests.Test: library.tests.local_test.TestAPI.executor": "Run",
+    "Django tests.Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.executor": "Run",
+    "Django tests.Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libraryManager/tests" />
+      <recent name="$PROJECT_DIR$/library/tests" />
+      <recent name="$PROJECT_DIR$/library/api_tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase">
+    <configuration name="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: library.tests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="library.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="libraryManager" type="Python.DjangoServer" factoryName="Django server">
+      <module name="libraryManager" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" />
+        <item itemvalue="Django tests.Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" />
+        <item itemvalue="Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations" />
+        <item itemvalue="Django tests.Test: library.tests" />
+        <item itemvalue="Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fe5e58d-dc85-457f-97ca-292d03627d3e" name="Changes" comment="" />
+      <created>1728855563079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728855563079</updated>
+      <workItem from="1728855572949" duration="736000" />
+      <workItem from="1728856320382" duration="99000" />
+      <workItem from="1728856429840" duration="2616000" />
+      <workItem from="1728861880266" duration="69000" />
+      <workItem from="1728861961073" duration="18911000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/library/tests/customUserProfileViews_test.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_staff_group_assigment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_staff_group_assigment Coverage Results" MODIFIED="1728863105771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_users_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_staff Coverage Results" MODIFIED="1729028731934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1729036356136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_TestAPI_test_the_test.coverage" NAME="Test: library.tests.TestAPI.test_the_test Coverage Results" MODIFIED="1728855855013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_contains_expected_fields.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_contains_expected_fields Coverage Results" MODIFIED="1729033906755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase Coverage Results" MODIFIED="1729032839375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1728947326968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_users_as_normal_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_normal_user Coverage Results" MODIFIED="1728955353596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_retrieve_user_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_user_as_staff Coverage Results" MODIFIED="1729029483494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_retrieve_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_own_profile_as_user Coverage Results" MODIFIED="1729030688214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_invalid_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_invalid_deserialization Coverage Results" MODIFIED="1729036380112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests.coverage" NAME="Test: library.tests Coverage Results" MODIFIED="1729036788655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase Coverage Results" MODIFIED="1728953055423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase.coverage" NAME="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase Coverage Results" MODIFIED="1729036687774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase_test_crud_operations.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations Coverage Results" MODIFIED="1729036992120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer.coverage" NAME="Test: library.tests.customUserProfileSerializer Coverage Results" MODIFIED="1728946939620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase Coverage Results" MODIFIED="1729037144076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1728946622699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_update_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_update_own_profile_as_user Coverage Results" MODIFIED="1729032424291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase Coverage Results" MODIFIED="1728953088561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase Coverage Results" MODIFIED="1729036450740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_local_test_TestAPI.coverage" NAME="Test: library.tests.local_test.TestAPI Coverage Results" MODIFIED="1728856482154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase_test_crud_operations.coverage" NAME="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations Coverage Results" MODIFIED="1729036864875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_user_deserialization Coverage Results" MODIFIED="1728947245522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_user_permissions_assignment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_permissions_assignment Coverage Results" MODIFIED="1728863112452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1729034404321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_invalid_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_invalid_deserialization Coverage Results" MODIFIED="1728946313429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_TestAPI.coverage" NAME="Test: library.tests.TestAPI Coverage Results" MODIFIED="1728855741784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_user_group_assigment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_group_assigment Coverage Results" MODIFIED="1728863099605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_create_user_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_create_user_as_staff Coverage Results" MODIFIED="1729028917871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

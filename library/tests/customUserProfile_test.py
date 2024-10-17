@@ -1,6 +1,7 @@
 from django.test import TestCase
 from django.contrib.auth.models import Group, Permission
 from library.models import CustomUserProfile
+from django.utils import timezone
 
 class CustomUserProfileTestCase(TestCase):
 
@@ -35,3 +36,26 @@ class CustomUserProfileTestCase(TestCase):
         self.assertIn(change_permission, staff_group.permissions.all())
         self.assertIn(delete_permission, staff_group.permissions.all())
         self.assertIn(view_permission, staff_group.permissions.all())
+
+    def test_soft_delete_via_save(self):
+        self.user.is_active = False
+        self.user.save()
+        self.user = CustomUserProfile.objects.get(username='test')
+       # self.user.refresh_from_db()
+        self.assertFalse(self.user.is_active)
+        self.assertIsNotNone(self.user.deleted_at)
+
+    def test_soft_delete(self):
+        self.user.delete()
+        self.user.refresh_from_db()
+        self.assertFalse(self.user.is_active)
+        self.assertIsNotNone(self.user.deleted_at)
+
+    def test_hard_delete(self):
+        self.user.is_active = False
+        self.user.deleted_at = timezone.now()
+        self.user.save()
+        self.user.delete()
+        with self.assertRaises(CustomUserProfile.DoesNotExist):
+            CustomUserProfile.objects.get(username='test')
+

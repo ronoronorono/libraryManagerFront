@@ -35,7 +35,7 @@ class CustomUserProfileSerializerTestCase(APITestCase):
     def test_contains_expected_fields(self):
         serializer = CustomUserProfileSerializer(instance=self.user)
         data = serializer.data
-        self.assertEqual(set(data.keys()), set(['id', 'first_name', 'last_name', 'email', 'username', 'library_card_number', 'updated_at', 'is_staff', 'is_superuser']))
+        self.assertEqual(set(data.keys()), set(['id', 'first_name', 'last_name', 'email', 'username', 'library_card_number', 'updated_at', 'is_staff', 'is_superuser','is_active']))
 
     def test_user_serialization(self):
         serializer = CustomUserProfileSerializer(instance=self.user)

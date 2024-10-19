@@ -1,8 +1,10 @@
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
+from django_filters.rest_framework import DjangoFilterBackend
 
 from library.models import CustomUserProfile
+from library.pagination.customUserProfilePagination import CustomUserProfilePagination
 from library.serializers import CustomUserProfileSerializer
 from library.permissions import IsOwnerOrStaff, IsStaffOrDeny
 
@@ -12,6 +14,10 @@ class CustomUserProfileViewSet(viewsets.ModelViewSet):
     serializer_class = CustomUserProfileSerializer
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['username', 'library_card_number', 'email', 'is_active']
+    pagination_class = CustomUserProfilePagination
+
 
     def get_permissions(self):
         if self.action in ['list','create','destroy']:

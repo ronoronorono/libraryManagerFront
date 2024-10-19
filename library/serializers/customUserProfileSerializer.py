@@ -5,7 +5,7 @@ from library.models import CustomUserProfile
 class CustomUserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUserProfile
-        fields = ('id', 'username', 'library_card_number', 'updated_at', 'is_staff', 'is_superuser', 'first_name', 'last_name', 'email')
+        fields = ('id', 'username', 'library_card_number', 'updated_at', 'is_staff', 'is_superuser', 'first_name', 'last_name', 'email', 'is_active')
 
     def validate(self, data):
         user = self.context['request'].user

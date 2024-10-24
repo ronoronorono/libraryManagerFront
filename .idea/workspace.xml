@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="379e2500-5580-4a01-b3e5-ecf3752205c9" name="Pagination and Filter" comment="Add Pagination and Filter">
+      <change afterPath="$PROJECT_DIR$/library/models/categories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/pagination/categoriesPagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/permissions/categoriesPermission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/serializers/categoriesSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/categoriesModel_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/categoriesSerializer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/tests/categoriesViews_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/views/categoriesView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/serializers/customUserProfileSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/serializers/customUserProfileSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tests/customUserProfileSerializer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/tests/customUserProfileSerializer_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tests/customUserProfileViews_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/tests/customUserProfileViews_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/permissions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/permissions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/views/customUserProfileView.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views/customUserProfileView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraryManager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/libraryManager/settings.py" afterDir="false" />
     </list>
     <list id="2fe5e58d-dc85-457f-97ca-292d03627d3e" name="Changes" comment="First Commit" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "magalhaes1988"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/magalhaes1988/libraryManagerBackend-Django.git",
+    "accountId": "f14400fa-319e-41ab-ba8e-05bd817255fc"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,8 +63,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django tests.Test: library.serializers.categoriesSerializer.executor": "Run",
     "Django tests.Test: library.tests.TestAPI.executor": "Run",
     "Django tests.Test: library.tests.TestAPI.test_the_test.executor": "Run",
+    "Django tests.Test: library.tests.categoriesModel_test.executor": "Run",
+    "Django tests.Test: library.tests.categoriesSerializer_test.CategorySerializerTest.executor": "Run",
+    "Django tests.Test: library.tests.categoriesSerializer_test.CategorySerializerTest.test_create_category_serializer.executor": "Run",
+    "Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.executor": "Run",
+    "Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_category.executor": "Run",
+    "Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_more_than_5000_categories.executor": "Run",
+    "Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category.executor": "Run",
     "Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.executor": "Run",
     "Django tests.Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations.executor": "Run",
     "Django tests.Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.executor": "Run",
@@ -98,8 +127,8 @@
       <recent name="$PROJECT_DIR$/library/api_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: library.tests">
-    <configuration name="Test: library.tests" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category">
+    <configuration name="Test: library.tests.categoriesViews_test.CategoriesViewSetTest" type="DjangoTestsConfigurationType" temporary="true">
       <module name="libraryManager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,14 +142,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="library.tests" />
+      <option name="TARGET" value="library.tests.categoriesViews_test.CategoriesViewSetTest" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: library.tests.customUserProfileViews_test" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_category" type="DjangoTestsConfigurationType" temporary="true">
       <module name="libraryManager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,14 +163,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="library.tests.customUserProfileViews_test" />
+      <option name="TARGET" value="library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_category" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_and_pagination" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_more_than_5000_categories" type="DjangoTestsConfigurationType" temporary="true">
       <module name="libraryManager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,14 +184,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_and_pagination" />
+      <option name="TARGET" value="library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_more_than_5000_categories" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_by_library_card_number" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category" type="DjangoTestsConfigurationType" temporary="true">
       <module name="libraryManager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,14 +205,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_by_library_card_number" />
+      <option name="TARGET" value="library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_pagination" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase" type="DjangoTestsConfigurationType" temporary="true">
       <module name="libraryManager" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +226,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_pagination" />
+      <option name="TARGET" value="library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -230,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: library.tests" />
-        <item itemvalue="Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_by_library_card_number" />
-        <item itemvalue="Django tests.Test: library.tests.customUserProfileViews_test" />
-        <item itemvalue="Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_and_pagination" />
-        <item itemvalue="Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_pagination" />
+        <item itemvalue="Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category" />
+        <item itemvalue="Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest" />
+        <item itemvalue="Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_more_than_5000_categories" />
+        <item itemvalue="Django tests.Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_category" />
+        <item itemvalue="Django tests.Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +288,7 @@
       <workItem from="1728856429840" duration="2616000" />
       <workItem from="1728861880266" duration="69000" />
       <workItem from="1728861961073" duration="18911000" />
+      <workItem from="1729807582597" duration="3666000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -284,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729336945265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Pagination and Filter">
+      <option name="closed" value="true" />
+      <created>1729337025891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729337025891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,48 +330,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Add Pagination and Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Pagination and Filter" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_active_users.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_active_users Coverage Results" MODIFIED="1729291004294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_staff_group_assigment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_staff_group_assigment Coverage Results" MODIFIED="1728863105771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_filter_by_library_card_number.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_by_library_card_number Coverage Results" MODIFIED="1729299484637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1729036356136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_users_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_staff Coverage Results" MODIFIED="1729028731934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_TestAPI_test_the_test.coverage" NAME="Test: library.tests.TestAPI.test_the_test Coverage Results" MODIFIED="1728855855013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_contains_expected_fields.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_contains_expected_fields Coverage Results" MODIFIED="1729122744934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesSerializer_test_CategorySerializerTest_test_create_category_serializer.coverage" NAME="Test: library.tests.categoriesSerializer_test.CategorySerializerTest.test_create_category_serializer Coverage Results" MODIFIED="1729809227994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_filter_by_email.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_by_email Coverage Results" MODIFIED="1729291196604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase Coverage Results" MODIFIED="1729204840881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1728947326968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_inactive_users.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_inactive_users Coverage Results" MODIFIED="1729291023241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_users_as_normal_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_normal_user Coverage Results" MODIFIED="1728955353596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_invalid_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_invalid_deserialization Coverage Results" MODIFIED="1729036380112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_retrieve_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_own_profile_as_user Coverage Results" MODIFIED="1729030688214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_retrieve_user_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_user_as_staff Coverage Results" MODIFIED="1729029483494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_soft_delete_user_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_soft_delete_user_as_staff Coverage Results" MODIFIED="1729204809883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests.coverage" NAME="Test: library.tests Coverage Results" MODIFIED="1729299547499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase Coverage Results" MODIFIED="1728953055423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase.coverage" NAME="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase Coverage Results" MODIFIED="1729036687774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase_test_crud_operations.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations Coverage Results" MODIFIED="1729036992120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer.coverage" NAME="Test: library.tests.customUserProfileSerializer Coverage Results" MODIFIED="1728946939620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase Coverage Results" MODIFIED="1729037144076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_hard_delete_user_as_superuser.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_hard_delete_user_as_superuser Coverage Results" MODIFIED="1729204704102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1728946622699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_update_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_update_own_profile_as_user Coverage Results" MODIFIED="1729032424291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_pagination.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_pagination Coverage Results" MODIFIED="1729294008079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase Coverage Results" MODIFIED="1729122595545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_filter_and_pagination.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_and_pagination Coverage Results" MODIFIED="1729299162561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase Coverage Results" MODIFIED="1729288167080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_local_test_TestAPI.coverage" NAME="Test: library.tests.local_test.TestAPI Coverage Results" MODIFIED="1728856482154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesViews_test_CategoriesViewSetTest_test_delete_category.coverage" NAME="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_delete_category Coverage Results" MODIFIED="1729811217848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase_test_crud_operations.coverage" NAME="Test: library.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations Coverage Results" MODIFIED="1729036864875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_serializers_categoriesSerializer.coverage" NAME="Test: library.serializers.categoriesSerializer Coverage Results" MODIFIED="1729807844805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesViews_test_CategoriesViewSetTest_test_create_category.coverage" NAME="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_category Coverage Results" MODIFIED="1729810512507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1729034404321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesViews_test_CategoriesViewSetTest_test_create_more_than_5000_categories.coverage" NAME="Test: library.tests.categoriesViews_test.CategoriesViewSetTest.test_create_more_than_5000_categories Coverage Results" MODIFIED="1729810591350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_TestAPI.coverage" NAME="Test: library.tests.TestAPI Coverage Results" MODIFIED="1728855741784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_active_users.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_active_users Coverage Results" MODIFIED="1729291004294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_staff_group_assigment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_staff_group_assigment Coverage Results" MODIFIED="1728863105771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1729036356136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_users_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_users_as_staff Coverage Results" MODIFIED="1729028731934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase Coverage Results" MODIFIED="1729809340814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_superuser_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_superuser_deserialization Coverage Results" MODIFIED="1728947326968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_list_inactive_users.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_list_inactive_users Coverage Results" MODIFIED="1729291023241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_retrieve_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_retrieve_own_profile_as_user Coverage Results" MODIFIED="1729030688214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_invalid_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_invalid_deserialization Coverage Results" MODIFIED="1729036380112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests.coverage" NAME="Test: library.tests Coverage Results" MODIFIED="1729299547499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase_test_crud_operations.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase.test_crud_operations Coverage Results" MODIFIED="1729036992120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesViews_test_CategoriesViewSetTest.coverage" NAME="Test: library.tests.categoriesViews_test.CategoriesViewSetTest Coverage Results" MODIFIED="1729810621824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer.coverage" NAME="Test: library.tests.customUserProfileSerializer Coverage Results" MODIFIED="1728946939620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__libraryManager_tests_customUserProfileAPI_test_CustomUserProfileAPITestCase.coverage" NAME="Test: libraryManager.tests.customUserProfileAPI_test.CustomUserProfileAPITestCase Coverage Results" MODIFIED="1729037144076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1728946622699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_update_own_profile_as_user.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_update_own_profile_as_user Coverage Results" MODIFIED="1729032424291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesSerializer_test_CategorySerializerTest.coverage" NAME="Test: library.tests.categoriesSerializer_test.CategorySerializerTest Coverage Results" MODIFIED="1729809244534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_filter_and_pagination.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_filter_and_pagination Coverage Results" MODIFIED="1729299162561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_local_test_TestAPI.coverage" NAME="Test: library.tests.local_test.TestAPI Coverage Results" MODIFIED="1728856482154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test.coverage" NAME="Test: library.tests.customUserProfileViews_test Coverage Results" MODIFIED="1729299174366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_valid_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_valid_user_deserialization Coverage Results" MODIFIED="1728947245522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_user_permissions_assignment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_permissions_assignment Coverage Results" MODIFIED="1728863112452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_test_CustomUserProfileSerializerTestCase_test_valid_staff_user_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer_test.CustomUserProfileSerializerTestCase.test_valid_staff_user_deserialization Coverage Results" MODIFIED="1729034404321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_categoriesModel_test.coverage" NAME="Test: library.tests.categoriesModel_test Coverage Results" MODIFIED="1729807867850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_soft_delete_via_save.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_soft_delete_via_save Coverage Results" MODIFIED="1729121982281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileSerializer_CustomUserProfileSerializerTestCase_test_invalid_deserialization.coverage" NAME="Test: library.tests.customUserProfileSerializer.CustomUserProfileSerializerTestCase.test_invalid_deserialization Coverage Results" MODIFIED="1728946313429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_TestAPI.coverage" NAME="Test: library.tests.TestAPI Coverage Results" MODIFIED="1728855741784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfile_test_CustomUserProfileTestCase_test_user_group_assigment.coverage" NAME="Test: library.tests.customUserProfile_test.CustomUserProfileTestCase.test_user_group_assigment Coverage Results" MODIFIED="1728863099605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/libraryManager$Test__library_tests_customUserProfileViews_test_CustomUserProfileViewTestCase_test_create_user_as_staff.coverage" NAME="Test: library.tests.customUserProfileViews_test.CustomUserProfileViewTestCase.test_create_user_as_staff Coverage Results" MODIFIED="1729028917871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

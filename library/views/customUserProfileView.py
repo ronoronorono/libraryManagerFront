@@ -5,8 +5,8 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 from library.models import CustomUserProfile
 from library.pagination.customUserProfilePagination import CustomUserProfilePagination
-from library.permissions import IsOwnerOrStaff, IsStaffOrDeny
-from library.serializers import CustomUserProfileSerializer
+from library.permissions.customUserProfilePermission import IsOwnerOrStaff, IsStaffOrDeny
+from library.serializers.customUserProfileSerializer import CustomUserProfileSerializer
 
 
 class CustomUserProfileViewSet(viewsets.ModelViewSet):

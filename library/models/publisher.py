@@ -1,16 +1,16 @@
 from django.db import models
 from django.utils import timezone
 
-class Category(models.Model):
+class Publisher(models.Model):
     id = models.AutoField(primary_key=True)
-    name = models.CharField(max_length=50, unique=True)
-    description = models.TextField(blank=True, null=True, default=None)
+    publisher_name = models.CharField(max_length=50, unique=True)
+    inserted_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     is_active = models.BooleanField(default=True)
     deleted_at = models.DateTimeField(blank=True, null=True, default=None)
 
     def __str__(self):
-        return self.name
+        return self.publisher_name
 
     def delete(self, *args, **kwargs):
 
@@ -32,4 +32,3 @@ class Category(models.Model):
             self.deleted_at = timezone.now()
 
         super().save(*args, **kwargs)
-

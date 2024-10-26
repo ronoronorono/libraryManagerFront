@@ -1,2 +1,2 @@
 from .customUserProfilePermission import *
-from .categoriesPermission import *
+from .customPermissions import *

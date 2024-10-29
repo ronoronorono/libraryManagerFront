@@ -7,3 +7,6 @@ from .categoriesViews_test import *
 from .publisherModel_test import *
 from .publisherSerializer_test import *
 from .publisherView_test import *
+from .authorModel_test import *
+from .authorSerializer_test import *
+from .authorView_test import *

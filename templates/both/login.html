@@ -4,21 +4,24 @@
   <div
     style="width: 1019px; height: 655px; left: 241px; top: 190px; position: absolute; background: #FDF9F9; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; border: 1px black solid">
   </div>
+
   <img
     style="width: 419px; height: 665px; left: 241px; top: 185px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px; border: 1px black solid"
     src="{% static 'images/Logo.png' %}" alt="Logo">
+
   <div
-    style="width: 316px; height: 40px; left: 720px; top: 709px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
-    Ainda não está cadastrado?
-    <button>
-      Cadastre-se
-    </button>
+    style="left: 863px; top: 240px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    Fazer login
   </div>
-  <div style="width: 196px; height: 55px; left: 859px; top: 640px; position: absolute"><button>Esqueci a senha</button>
+
+  <div
+    style="left: 774px; top: 330px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    Entre com seu e-mail e senha
   </div>
+
   <form method="POST">
     {% csrf_token %}
-    
+
     <div style="width: 460px; height: 97px; left: 725px; top: 410px; position: absolute">
       <div
         style="left: 174px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
@@ -34,15 +37,22 @@
         {{ form.password }}
       </div>
     </div>
-    
+
     <div style="width: 238px; height: 52px; left: 823px; top: 770px; position: absolute">
       <button type="submit">Entrar</button>
     </div>
   </form>
+
+  <div style="width: 196px; height: 55px; left: 859px; top: 640px; position: absolute">
+    <button>Esqueci a senha</button>
+  </div>
+
   <div
-    style="left: 774px; top: 330px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
-    Entre com seu e-mail e senha</div>
-  <div
-    style="left: 863px; top: 240px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">
-    Fazer login</div>
+    style="width: 316px; height: 40px; left: 720px; top: 709px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    Ainda não está cadastrado?
+    <button>
+      Cadastre-se
+    </button>
+  </div>
+
 </div>

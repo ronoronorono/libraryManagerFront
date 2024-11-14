@@ -23,6 +23,7 @@ from rest_framework_simplejwt.views import (
 )
 from library.views.loginView import loginView
 from library.views.mainScreenAdm import mainScreenAdmView
+from library.views.searchBooksView import searchBooksView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,4 +33,5 @@ urlpatterns = [
     path('api/auth/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('login/', loginView, name='login'),
     path('menuAdm/', mainScreenAdmView, name='menuAdm'),
+    path('buscarLivros/', searchBooksView, name='buscarLivros'),
 ]

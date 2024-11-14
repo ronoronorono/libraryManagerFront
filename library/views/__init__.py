@@ -1,3 +1,1 @@
-from .categoriesView import *
-from .publisherView import *
-from .authorView import *
+#from .categoriesView import *

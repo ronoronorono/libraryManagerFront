@@ -21,6 +21,7 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView
 )
+from library.views.loginView import loginView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,5 +29,5 @@ urlpatterns = [
     path('api/auth/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/auth/verify/', TokenVerifyView.as_view(), name='token_verify'),
-
+    path('login/', loginView, name='login'),
 ]

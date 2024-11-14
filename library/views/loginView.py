@@ -19,7 +19,7 @@ def loginView(request):
             if user is not None:
                 print("LOGADO")
                 login(request, user)
-                return redirect('/')
+                return redirect('menuAdm/')
             
             else:
                 print("NOT LOGADO")

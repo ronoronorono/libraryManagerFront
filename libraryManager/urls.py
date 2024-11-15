@@ -27,6 +27,7 @@ from library.views.bookRegistrationView import bookRegistrationView
 from library.views.studentRegistrationView import studentRegistrationView
 from library.views.searchBooksView import searchBooksView
 from library.views.bookSearchResultView import bookSearchResultView
+from library.views.bookDetailsView import bookDetailsView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -39,5 +40,6 @@ urlpatterns = [
     path('cadastroLivro/', bookRegistrationView, name='cadastroLivro'),
     path('cadastroAluno/', studentRegistrationView, name='cadastroAluno'),
     path('buscarLivros/', searchBooksView, name='buscarLivros'),
-    path('resultadoBuscaLivro/', bookSearchResultView, name='resultadoBuscaLivro')
+    path('resultadoBuscaLivro/', bookSearchResultView, name='resultadoBuscaLivro'),
+    path('detalhesLivro/', bookDetailsView, name='detalhesLivro'),
 ]

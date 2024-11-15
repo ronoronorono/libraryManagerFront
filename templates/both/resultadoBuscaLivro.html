@@ -33,20 +33,22 @@
     <table >
       <tr>
         <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
           <img src="{% static 'images/livroPlaceHolder.png' %}" alt="livroPlaceHolder" >
+        </a>
         </th>
       </tr>
       <tr>
-        <td>{{ book.title }}</td>
+        <td style=" padding: 0 35px;"> <b>{{ book.title }}</b></td>
       </tr>
       <tr>
-        <td>{{ book.author }}</td>
+        <td style=" padding: 0 35px;">Autor: {{ book.author }}</td>
       </tr>
       <tr>
-        <td>{{ book.theme }}</td>
+        <td style=" padding: 0 35px;">Gênero: {{ book.theme }}</td>
       </tr>
     </table>
-
+    <hr>
     {% empty %}
     <li>Nenhum livro encontrado.</li>
 

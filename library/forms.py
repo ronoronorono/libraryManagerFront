@@ -35,6 +35,7 @@ class bookForm(forms.Form):
         max_length=100
    )
 
+
 class studentForm(forms.ModelForm):
      RA = forms.CharField(
         label="Numero Matrícula",
@@ -72,3 +73,10 @@ class studentForm(forms.ModelForm):
 
           return self.cleaned_data
           
+
+class searchBookForm(forms.Form):
+     title = forms.CharField(
+        label="Título",
+        max_length=100
+     )
+

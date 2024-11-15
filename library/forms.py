@@ -51,7 +51,5 @@ class studentForm(forms.Form):
    )
    birthday = forms.DateField(
         label="Data de Nascimento",
-         widget=forms.DateInput(format="%d-%m-%Y", attrs={"type": "date"}),
-        input_formats=["%d-%m-%Y"]
-
+         widget=forms.DateInput(format="%d/%m/%Y", attrs={"type": "date"}),
    )

@@ -1,4 +1,5 @@
 from django import forms
+from library.models import Student
 
 class loginForm(forms.Form):
     email = forms.EmailField(
@@ -34,22 +35,40 @@ class bookForm(forms.Form):
         max_length=100
    )
 
-class studentForm(forms.Form):
-   name = forms.CharField(
-        label="Nome",
-        max_length=100
-   )
-   RG = forms.CharField(
+class studentForm(forms.ModelForm):
+     RA = forms.CharField(
+        label="Numero Matrícula",
+        min_length=6,
+        max_length=6
+     )
+     RG = forms.CharField(
         label="RG",
         min_length=9,
         max_length=9
-   )
-   RA = forms.CharField(
-        label="Matrícula",
-        min_length=6,
-        max_length=6
-   )
-   birthday = forms.DateField(
-        label="Data de Nascimento",
-         widget=forms.DateInput(format="%d/%m/%Y", attrs={"type": "date"}),
-   )
+     )
+     class Meta:
+          model = Student
+          fields = ["RA", "RG", "name", "birthday"]
+          labels = {
+               "name":"Nome",
+               "birthday":"Data de Nascimento"
+          }
+          widgets = {
+               "birthday" : forms.DateInput(format="%d/%m/%Y", attrs={"type": "date"}),
+               }
+
+     def clean(self):
+          super(studentForm, self).clean()
+
+          RA = self.cleaned_data.get('RA')
+          RG = self.cleaned_data.get('RG')
+          if Student.objects.filter(RG=RG).exists():
+               self._errors['RG'] = self.error_class([
+                   'RG Existente'])
+
+          if Student.objects.filter(RA=RA).exists():
+               self._errors['RA'] = self.error_class([
+                   'RA Existente'])
+
+          return self.cleaned_data
+          

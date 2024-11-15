@@ -37,7 +37,7 @@ urlpatterns = [
     path('login/', loginView, name='login'),
     path('menuAdm/', mainScreenAdmView, name='menuAdm'),
     path('cadastroLivro/', bookRegistrationView, name='cadastroLivro'),
-    path('cadastroAluno/', studentRegistrationView, name='cadastroAluno')
+    path('cadastroAluno/', studentRegistrationView, name='cadastroAluno'),
     path('buscarLivros/', searchBooksView, name='buscarLivros'),
     path('resultadoBuscaLivro/', bookSearchResultView, name='resultadoBuscaLivro')
 ]

@@ -33,3 +33,25 @@ class bookForm(forms.Form):
         label="Gênero",
         max_length=100
    )
+
+class studentForm(forms.Form):
+   name = forms.CharField(
+        label="Nome",
+        max_length=100
+   )
+   RG = forms.CharField(
+        label="RG",
+        min_length=9,
+        max_length=9
+   )
+   RA = forms.CharField(
+        label="Matrícula",
+        min_length=6,
+        max_length=6
+   )
+   birthday = forms.DateField(
+        label="Data de Nascimento",
+         widget=forms.DateInput(format="%d-%m-%Y", attrs={"type": "date"}),
+        input_formats=["%d-%m-%Y"]
+
+   )

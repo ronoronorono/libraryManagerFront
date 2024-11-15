@@ -24,6 +24,7 @@ from rest_framework_simplejwt.views import (
 from library.views.loginView import loginView
 from library.views.mainScreenAdm import mainScreenAdmView
 from library.views.bookRegistrationView import bookRegistrationView
+from library.views.studentRegistrationView import studentRegistrationView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -34,4 +35,5 @@ urlpatterns = [
     path('login/', loginView, name='login'),
     path('menuAdm/', mainScreenAdmView, name='menuAdm'),
     path('cadastroLivro/', bookRegistrationView, name='cadastroLivro'),
+    path('cadastroAluno/', studentRegistrationView, name='cadastroAluno')
 ]

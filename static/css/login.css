@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .container {
+    width: 1019px;
+    height: 793px;
+    background: #FDF9F9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .logo {
+    width: 477px;
+    height: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .title {
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    top: 70px;
+  }
+
+  .subtitle {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    top: 150px;
+  }
+  
+  .form-container {
+    width: calc(100% - 477px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-field {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-field label {
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .pasres-btn {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #163A5B;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 200px;
+  }
+  
+  .pasres-btn:hover {
+    text-decoration: underline;
+  }
+
+  .regs-btn {
+    background: #163A5B;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .regs-btn:hover {
+    background: #125074;
+  }
+
+  .btn-submit {
+    position: absolute;
+    background: #163A5B;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    bottom: 130px;
+    right: 220px;
+  }
+  
+  .btn-submit:hover {
+    background: #125074;
+  }
+
+  .register-link {
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+  }

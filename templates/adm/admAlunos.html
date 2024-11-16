@@ -1,0 +1,191 @@
+{% load static %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<div style="width: 1440px; height: 1024px; position: relative; background: white">
+  <div
+    style="width: 1019px; height: 655px; left: 249px; top: 159px; position: absolute; background: #FDF9F9; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; border: 1px black solid">
+  </div>
+  <img
+    style="width: 409px; height: 655px; left: 231px; top: 159px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px; border: 1px black solid"
+    src="{% static 'images/Logo.png' %}" alt="Logo" />
+  <div style="width: 564px; left: 655px; top: 243px; position: absolute">
+    <div style="width: 92px; height: 54px; left: 472px; top: 6px; position: absolute">
+      <div
+        style="width: 92px; height: 54px; left: 0px; top: 0px; position: absolute; background: #163A5B; border-radius: 10px">
+      </div>
+      <div
+        style="left: 7px; top: 12px; position: absolute; color: white; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+        Buscar</div>
+    </div>
+    <div style="width: 446px; height: 66px; left: 0px; top: 0px; position: absolute">
+      <div
+        style="width: 446px; height: 66px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; border: 1px black solid">
+      </div>
+    </div>
+  </div>
+  <div
+    style="width: 246px; height: 52px; left: 814px; top: 180px; position: absolute; text-align: center; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    Alunos</div>
+  <div style="width: 563px; height: 410px; left: 656px; top: 372px; position: absolute; overflow-y:auto;">
+
+
+    <div class="container">
+      <!-- Trigger the modal with a button -->
+    
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Empréstimo realizado com sucesso!</h4>
+            </div>
+            <div class="modal-body">
+              <p>Data do empréstimo: 16/11/2024</p>
+              <p>Data de devolução:  30/11/2024</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Felipe Gonçalves</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 648814</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 36.348.167-7</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a style=" cursor: pointer; "type="button" data-toggle="modal" data-target="#myModal">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Broly Fonseca</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 673595</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 65.565.933-7</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>João Augusto Peixes</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 207722</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 84.606.236-0</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Caio Abrãao Fonseca</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 269665</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 60.451.165-1</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Marco Fagundes</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 265565</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 06.081.230-0</td>
+      </tr>
+    </table>
+    <hr>
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesLivro?livro={{ book.id }}">
+          <img src="{% static 'images/aluno.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Juanito Gonzales</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RA: 775565</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">RG: 99.081.230-0</td>
+      </tr>
+    </table>
+    <hr>
+
+  </div>
+  <div style="width: 114px; height: 48px; left: 249px; top: 170px; position: absolute">
+    <div
+      style="width: 114px; height: 48px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 16px">
+    </div>
+    <div
+      style="width: 101.22px; height: 29px; left: 6px; top: 10px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+      <a href="{% url 'buscarLivros' %}">Voltar</a>
+  </div>
+</div>

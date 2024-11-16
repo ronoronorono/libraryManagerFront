@@ -18,10 +18,19 @@
     style="left: 774px; top: 330px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">
     Entre com seu e-mail e senha
   </div>
-
+  {% if user.is_authenticated%}
+    <p>salve, {{user.username}} </p>
+    <form action="{% url 'logout' %}" method="post">
+      {% csrf_token %} #csrf_token is very important to have as this is POST request
+      <button type="submit">Logout</button>
+  </form>
+{%else%}
+    <p>NÃO TA LOGADO</p>
+    <a href="{% url 'login' %}">Login</a>
+{%endif%}
   <form method="POST">
     {% csrf_token %}
-
+  
     <div style="width: 460px; height: 97px; left: 725px; top: 410px; position: absolute">
       <div
         style="left: 174px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">

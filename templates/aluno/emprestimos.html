@@ -1,0 +1,50 @@
+{% load static %}
+
+<div style="width: 1440px; height: 1024px; position: relative; background: white">
+  <div
+    style="width: 1019px; height: 655px; left: 249px; top: 159px; position: absolute; background: #FDF9F9; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; border: 1px black solid">
+  </div>
+  <img
+    style="width: 409px; height: 655px; left: 231px; top: 159px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px; border: 1px black solid"
+    src="{% static 'images/Logo.png' %}" alt="Logo" />
+  <div style="width: 564px; left: 655px; top: 265px; position: absolute">
+<hr>
+ 
+  </div>
+  <div
+    style="width: 246px; height: 52px; left: 814px; top: 180px; position: absolute; text-align: center; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    Empréstimos</div>
+  <div style="width: 563px; height: 410px; left: 656px; top: 322px; position: absolute">
+   
+
+
+    <table >
+      <tr>
+        <th rowspan="4">
+          <a href="../detalhesEmprestimo?livro=9726620333432">
+          <img src="{% static 'images/livroPlaceHolder.png' %}" alt="livroPlaceHolder" >
+        </a>
+        </th>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"> <b>Os Dragões do Éden</b></td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;">Autor: Carl Sagan</td>
+      </tr>
+      <tr>
+        <td style=" padding: 0 35px;"><b>Data de entrega: </b>30/11/2024</td>
+      </tr>
+    </table>
+    <hr>
+
+  </div>
+  <div style="width: 114px; height: 48px; left: 249px; top: 170px; position: absolute">
+    <div
+      style="width: 114px; height: 48px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 16px">
+    </div>
+    <div
+      style="width: 101.22px; height: 29px; left: 6px; top: 10px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+      <a href="{% url 'menuAluno' %}">Voltar</a>
+  </div>
+</div>

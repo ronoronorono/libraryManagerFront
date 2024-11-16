@@ -23,13 +23,17 @@ from rest_framework_simplejwt.views import (
 )
 from library.views.loginView import loginView
 from library.views.mainScreenAdm import mainScreenAdmView
+from library.views.mainScreenStudent import mainScreenStudentView
 from library.views.bookRegistrationView import bookRegistrationView
 from library.views.studentRegistrationView import studentRegistrationView
 from library.views.searchBooksView import searchBooksView
 from library.views.bookSearchResultView import bookSearchResultView
 from library.views.bookDetailsView import bookDetailsView
+from library.views.borrowedBooksView import borrowedBooksView
+from library.views.studentsAdminView import studentsAdminView
 
 urlpatterns = [
+    path("accounts/", include("django.contrib.auth.urls")),
     path('admin/', admin.site.urls),
     path('api/v1/', include('library.urls')),
     path('api/auth/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
@@ -37,9 +41,12 @@ urlpatterns = [
     path('api/auth/verify/', TokenVerifyView.as_view(), name='token_verify'),
     path('login/', loginView, name='login'),
     path('menuAdm/', mainScreenAdmView, name='menuAdm'),
+    path('menuAluno/', mainScreenStudentView, name='menuAluno'),
     path('cadastroLivro/', bookRegistrationView, name='cadastroLivro'),
     path('cadastroAluno/', studentRegistrationView, name='cadastroAluno'),
     path('buscarLivros/', searchBooksView, name='buscarLivros'),
     path('resultadoBuscaLivro/', bookSearchResultView, name='resultadoBuscaLivro'),
     path('detalhesLivro/', bookDetailsView, name='detalhesLivro'),
+    path('emprestimos/', borrowedBooksView, name='emprestimos'),
+    path('admAlunos/', studentsAdminView, name='admAlunos'),
 ]

@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from library.forms import loginForm
 from django.contrib.auth.models import User
+from django.contrib.auth.models import Permission
 
 #user = User.objects.create_user("TESTE", "TESTE@TESTE.com", "TESTE123")
 #user.save()
@@ -15,11 +16,19 @@ def loginView(request):
 
 
             user = authenticate(request, username=email, password=password)
-            
+            #permissions = Permission.objects.filter(user=request.user)
+            auth_user = User.objects.get(username=email)
+            print("SUPERUSER: "+str(User.objects.get(username=email).is_superuser))
+
             if user is not None:
-                print("LOGADO")
-                login(request, user)
-                return redirect('menuAdm/')
+                if auth_user.is_superuser:
+                    print("LOGADO ADM")
+                    login(request, user)
+                    return redirect('/menuAdm')
+                else:
+                    print("LOGADO ALUNO")
+                    login(request, user)
+                    return redirect('/menuAluno')
             
             else:
                 print("NOT LOGADO")

@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect
 from library.forms import searchBookForm
 
 def searchBooksView(request):
+    print("É ESTUDANTE?: "+str(request.session['student']))
+    context = {
+        'student':request.session['student']
+    }
     if request.method == 'POST':
         form = searchBookForm(request.POST)
         if form.is_valid():
@@ -11,4 +15,4 @@ def searchBooksView(request):
     else:
         form = searchBookForm() 
 
-    return render(request, 'both/buscarLivros.html', {'searchBookForm': form})
+    return render(request, 'both/buscarLivros.html', {'searchBookForm': form,  'student':request.session['student']})

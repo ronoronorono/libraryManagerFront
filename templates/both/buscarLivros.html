@@ -16,8 +16,12 @@
         </div>
         <button class="btn-submit" type="submit">Procurar</button>
       </div>
-
+      {% if student %}
+      <a href="../menuAluno/" class="btn-back">Voltar</a>
+      {%else%}
       <a href="../menuAdm/" class="btn-back">Voltar</a>
+      {%endif%}
+      
 
     </form>
   </div>

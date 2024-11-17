@@ -85,3 +85,17 @@ body {
 .logoutBtn:hover {
     background: #125074;
 }
+
+.a-book {
+  background: #163A5B;
+  color: white;
+  font-size: 20px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.a-book:hover {
+  background: #125074;
+}

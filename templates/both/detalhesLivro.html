@@ -1,13 +1,16 @@
 {% load static %}
+<link rel="stylesheet" href="{% static 'css/menuPrincipalAdm.css' %}">
 
 <div style="width: 1440px; height: 1024px; position: relative; background: white">
     <div style="width: 1019px; height: 655px; left: 249px; top: 159px; position: absolute; background: #FDF9F9; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; border: 1px black solid"></div>
 
+    
     <img style="width: 409px; height: 655px; left: 231px; top: 159px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-top-left-radius: 10px; border-top-right-radius: 10px; border: 1px black solid" src="{% static 'images/Logo.png' %}" alt="Logo" />
-    <div style="width: 307.25px; height: 60.63px; left: 783px; top: 621px; position: absolute">
-      <div style="width: 307.25px; height: 60.63px; left: 0px; top: 0px; position: absolute; background: #163A5B; border-radius: 10px"></div>
-      <div style="width: 250.02px; height: 31.40px; left: 28.55px; top: 14.08px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word"><a href="{% url 'admAlunos' %}">Realizar empréstimo</a></div>
-    </div>
+    <a  href="{% url 'admAlunos' %}">
+    <div class="a-book" style="width: 307.25px; height: 60.63px; left: 768px; top: 621px; position: absolute">
+      <div style="width: 307.25px; height: 60.63px; left: 0px; top: 0px; position: absolute; border-radius: 10px"></div>
+     <div style="width: 250.02px; height: 31.40px; left: 38.55px; top: 18.08px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">Realizar empréstimo</div>
+    </div></a>
     <div style="width: 246px; height: 52px; left: 814px; top: 180px; position: absolute; text-align: center; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word"><b>{{ book.title }}</b></div>
     <div style="width: 507px; height: 222px; left: 672px; top: 265px; position: absolute">
       <div style="width: 293px; height: 28px; left: 214px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word">Autor: {{ book.author }} </div>
@@ -16,12 +19,15 @@
       <div style="width: 181px; height: 222px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
       <div style="width: 103px; height: 30px; left: 35px; top: 96px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Roboto; font-weight: 400; word-wrap: break-word"> <img src="{% static 'images/livroPlaceHolder.png' %}" alt="livroPlaceHolder" ></div>
     </div>
-    <div style="width: 114px; height: 48px; left: 249px; top: 182px; position: absolute">
-      <div style="width: 114px; height: 48px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 16px"></div>
-      <div style="width: 101.22px; height: 29px; left: 6px; top: 10px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word"><a href="{% url 'resultadoBuscaLivro' %}">Voltar</a></div>
-    </div>
+
     <div style="width: 258.25px; height: 56px; left: 808px; top: 734px; position: absolute">
       <div style="width: 258.25px; height: 56px; left: 0px; top: 0px; position: absolute; background: #163A5B; border-radius: 10px"></div>
       <div style="width: 210.15px; height: 29px; left: 24px; top: 13px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word"><a style="color:white; text-decoration: none;" href="{% url 'menuAdm' %}">Retornar ao menu</a></div>
     </div>
   </div>
+
+  <div style="width: 114px; height: 48px; left: 479px; top: 111px; position: absolute">
+    <div>
+      <a style="text-decoration: none;" class="logoutBtn" href="{% url 'buscarLivros' %}">Voltar</a>
+  </div>
+</div>
